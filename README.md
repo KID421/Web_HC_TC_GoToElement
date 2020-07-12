@@ -15,6 +15,7 @@
 
 ```
 data-gte-target="目標 ID" 
+
 data-gte-offset="位移 上方空間"
 ```
 
