@@ -1,7 +1,7 @@
 window.onload = () => {
 
     // 取得元素
-    var test = document.getElementById("test");
+    // var test = document.getElementById("test");
 
     // 元素.點擊事件
     test.onclick = () => {
@@ -12,7 +12,7 @@ window.onload = () => {
 
         // 視窗.捲動至({ 上方，行為 })
         window.scrollTo({
-            top: element.offsetTop,
+            top: element.offsetTop - offset,
             behavior: "smooth"
         })
     }
