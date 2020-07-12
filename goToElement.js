@@ -1,7 +1,5 @@
 window.onload = () => {
 
-    // 取得單一元素
-    // var test = document.getElementById("test");
     // 取得所有元素
     var elements = document.getElementsByTagName("*");
 
